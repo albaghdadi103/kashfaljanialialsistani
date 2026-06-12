@@ -1,0 +1,47 @@
+h1, h2 {
+    text-align: center;
+}
+
+p {
+  font-size: large;
+  direction: rtl;
+  margin-inline: auto;
+  width: 95%;
+}
+
+
+ol {
+  padding: 0;
+  direction: rtl;
+  list-style-position: inside;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  font-size: large;
+}
+
+
+hr {
+  
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+
+:root {
+  color-scheme: only dark;
+  background-color: black;
+}
+
+button {
+  border: 2px solid white;
+  background-color: rgb(98, 96, 96);
+  border-radius: 10px;
+}
+
+
